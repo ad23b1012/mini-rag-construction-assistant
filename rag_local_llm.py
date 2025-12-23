@@ -135,7 +135,7 @@ Answer:
 # Demo Query
 # -------------------------------
 if __name__ == "__main__":
-    query = "What delay-related mechanisms or processes are described in the documents?"
+    query = "What factors affect construction project delays?"
 
     retrieved = retrieve(query, TOP_K)
 
