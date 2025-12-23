@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "What factors affect construction project delays?",
+    "expected_source": "Delay Management & Accountability",
+    "notes": "Requires summarization of delay-related mechanisms. Hosted LLM answers causally; local LLM answers descriptively."
+  },
+  {
+    "id": 2,
+    "question": "How does Indecimal manage and prevent construction delays?",
+    "expected_source": "Delay Management & Accountability",
+    "notes": "Explicitly described mechanisms; both models should answer correctly."
+  },
+  {
+    "id": 3,
+    "question": "How does Indecimal ensure payment safety for customers?",
+    "expected_source": "Escrow-Based Payment Model",
+    "notes": "Direct factual retrieval. Low ambiguity."
+  },
+  {
+    "id": 4,
+    "question": "What quality assurance measures are followed during construction?",
+    "expected_source": "445+ Critical Checkpoints",
+    "notes": "Tests retrieval of structured quality system details."
+  },
+  {
+    "id": 5,
+    "question": "Does Indecimal provide post-construction maintenance support?",
+    "expected_source": "Zero Cost Maintenance Program",
+    "notes": "Straightforward yes/no with coverage description."
+  },
+  {
+    "id": 6,
+    "question": "What areas are covered under the zero cost maintenance program?",
+    "expected_source": "Zero Cost Maintenance Program",
+    "notes": "Tests list-based retrieval and summarization."
+  },
+  {
+    "id": 7,
+    "question": "How does Indecimal maintain transparency during construction?",
+    "expected_source": "Transparent and Live Tracking",
+    "notes": "Requires linking real-time tracking and dashboards."
+  },
+  {
+    "id": 8,
+    "question": "What roles are involved in Indecimal’s dedicated project team?",
+    "expected_source": "Dedicated Team & Partner Onboarding",
+    "notes": "Entity extraction from descriptive sections."
+  },
+  {
+    "id": 9,
+    "question": "How are contractor payments structured across the project lifecycle?",
+    "expected_source": "Stage-Based Contractor Payments",
+    "notes": "Tests understanding of milestone-based payments."
+  },
+  {
+    "id": 10,
+    "question": "What differentiates Indecimal from typical construction providers?",
+    "expected_source": "Differentiators Highlighted on the Website",
+    "notes": "Requires summarization of multiple bullet points."
+  },
+  {
+    "id": 11,
+    "question": "Does Indecimal offer real-time project progress visibility to customers?",
+    "expected_source": "Real-time Construction Progress",
+    "notes": "FAQ-based direct retrieval."
+  },
+  {
+    "id": 12,
+    "question": "What support does Indecimal provide for home financing?",
+    "expected_source": "Financing Support",
+    "notes": "Tests retrieval of customer experience positioning."
+  }
+]
